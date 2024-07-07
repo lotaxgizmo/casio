@@ -1,11 +1,19 @@
-import banner from "./assets/casio.jpg"
+import About from "./components/About";
+import Choose from "./components/Choose";
+import Gshock from "./components/Gshock";
+import Hero from "./components/Hero";
+import Join from "./components/Join";
+import Tokenomics from "./components/Tokenomics";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center text-center p-4">
-      <img src={banner} alt="" />
-      <h1 className="text-5xl font-black">CASIO COIN  WEBSITE</h1>
-      <h1 className="text-5xl font-black">coming soon</h1>
+    <div className="flex flex-col jjustify-center iitems-center text-center overflow-clip">
+      <Hero />
+      <Choose />
+      <About />
+      <Gshock />
+      <Tokenomics />
+      <Join />
     </div>
   );
 }

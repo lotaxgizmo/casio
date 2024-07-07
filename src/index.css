@@ -1,8 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.cdnfonts.com/css/eurostile");
+@import url("https://fonts.cdnfonts.com/css/eurostile-mn");
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap");
+@import url("https://fonts.cdnfonts.com/css/ibm-plex-sans");
 
 body {
-  font-family: "Eurostile", sans-serif;
+  background-color: black;
+  font-family: "Eurostile MN", sans-serif;
+  color: #008df0;
+}
+
+.euro {
+  font-family: "Eurostile MN", sans-serif;
+}
+
+.gasoek {
+  .gasoek-one-regular {
+    font-family: "Gasoek One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.ibm {
+  font-family: "IBM Plex Sans", sans-serif;
 }
